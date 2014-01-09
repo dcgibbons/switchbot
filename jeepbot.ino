@@ -9,7 +9,7 @@
  * likely work for 2011 to 2014 model years, but not the 2007 to 2010
  * model years.
  *
- * Copyright (C) 2014 Nuclear Bunny Studios, LLC
+ * Copyright (C) 2014 David Chadwick Gibbons
  * All Rights Reserved
  *
  * See the file LICENSE for copying permission.
