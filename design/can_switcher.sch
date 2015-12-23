@@ -7240,13 +7240,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </classes>
 <parts>
 <part name="U1" library="MF_IC_Power" deviceset="NCP1117LP" device="ST50T3G"/>
-<part name="C1" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="47uF"/>
+<part name="C1" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="47uF">
+<attribute name="MFG#" value="MF-CAP-6.3MM-47uF"/>
+</part>
 <part name="D1" library="diode" deviceset="DIODE-" device="SMB" value="1N4148"/>
-<part name="C2" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="47uF"/>
+<part name="C2" library="MF_Passives" deviceset="CAPACITOR_P" device="_6.3MM" value="47uF">
+<attribute name="MFG#" value="MF-CAP-6.3MM-47uF"/>
+</part>
 <part name="C3" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="100nF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="150"/>
+<part name="R1" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="150">
+<attribute name="MFG#" value="RC0603FR-07150RL"/>
+</part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="ICSP" library="MF_Connectors" deviceset="HEADER_02X03" device="_PTH_2.54MM">
@@ -7261,7 +7267,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U2" library="MF_IC_Digital" deviceset="ATMEGA328P" device="-AU"/>
 <part name="U$1" library="microchip_can" deviceset="MCP2515_X_SO" device=""/>
 <part name="U$2" library="microchip_can" deviceset="MCP2551_X_SN" device=""/>
-<part name="X1" library="MF_Frequency_Control" deviceset="XTL" device="_5MMX3.2MM" value="16.000 MHz"/>
+<part name="X1" library="MF_Frequency_Control" deviceset="XTL" device="_5MMX3.2MM" value="16.000 MHz">
+<attribute name="MFG#" value="ASFL1-16.000MHZ-EC-T"/>
+</part>
 <part name="C4" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="22 pF"/>
 <part name="C5" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="22 pF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -7271,16 +7279,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="RESET_SW" library="MF_Switches" deviceset="TACT" device="_6MM"/>
+<part name="RESET_SW" library="MF_Switches" deviceset="TACT" device="_6MM">
+<attribute name="MFG#" value="MF-SW-TACT-6MM"/>
+</part>
 <part name="R3" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="J3" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="IC1" library="74xx-eu" deviceset="74*595" device="D" technology="HC"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="OK1" library="optocoupler" deviceset="LTV816" device="S"/>
-<part name="OK2" library="optocoupler" deviceset="LTV816" device="S"/>
-<part name="OK3" library="optocoupler" deviceset="LTV816" device="S"/>
-<part name="OK4" library="optocoupler" deviceset="LTV816" device="S"/>
+<part name="OK1" library="optocoupler" deviceset="LTV816" device="S">
+<attribute name="MPN" value="LTV-816S-TA"/>
+</part>
+<part name="OK2" library="optocoupler" deviceset="LTV816" device="S">
+<attribute name="MPN" value="LTV-816S-TA"/>
+</part>
+<part name="OK3" library="optocoupler" deviceset="LTV816" device="S">
+<attribute name="MPN" value="LTV-816S-TA"/>
+</part>
+<part name="OK4" library="optocoupler" deviceset="LTV816" device="S">
+<attribute name="MPN" value="LTV-816S-TA"/>
+</part>
 <part name="R4" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="220Ω"/>
 <part name="R5" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="220Ω"/>
 <part name="R6" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="220Ω"/>
@@ -7296,10 +7314,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R9" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="100Ω"/>
 <part name="R10" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="100Ω"/>
-<part name="C7" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="560pF"/>
-<part name="C8" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="560pF"/>
+<part name="C7" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="560pF">
+<attribute name="MFG#" value="C0603C561J5GACTU"/>
+</part>
+<part name="C8" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="560pF">
+<attribute name="MFG#" value="C0603C561J5GACTU"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="con-subd" deviceset="M09" device="HP"/>
+<part name="X2" library="con-subd" deviceset="M09" device="HP">
+<attribute name="MPN" value="L717SDE09P1ACH"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="X3" library="con-molex" deviceset="22-23-2061" device=""/>
 <part name="R8" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="80Ω"/>
